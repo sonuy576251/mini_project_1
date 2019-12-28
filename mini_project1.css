@@ -1,0 +1,59 @@
+body {
+	margin:0px;
+	padding:0px;
+}
+
+#notify{
+	background-color: #222220;
+    color: #fff;
+    padding: 1px;
+    font-size: 20px;
+	text-align: center;
+}
+header .logo_wrapper {
+	display: flex;
+	padding: 10px;
+}
+header .logo_wrapper .logo_image {
+	width: 65%;
+}
+header .logo_wrapper .logo_image img {
+	width: 103px;
+	height: auto;
+	float: right;
+    padding-right: 18%;
+    padding-top: 1.25%;
+}
+header .logo_wrapper .search_wrapper {
+	width: 35%;
+	display: flex;
+}
+header .logo_wrapper .search_wrapper .search_bar {
+	width: 80%;
+}
+header .logo_wrapper .search_wrapper .relative {
+	position: relative;
+}
+header .logo_wrapper .search_wrapper .search_bar input {
+	width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+header .logo_wrapper .search_wrapper .search_bar .absolute {
+	position: absolute;
+	right: 5%;
+	top: 30%;
+	font-size: 20px;
+}
+header .logo_wrapper .search_wrapper .icons {
+	width: 20%;
+	padding: 0 40px;
+}
+header .logo_wrapper .search_wrapper .icons .user_icon {
+	font-size: 35px;
+}
+header .logo_wrapper .search_wrapper .icons .cart_icon {
+	font-size: 35px;
+	float: right;
+}
